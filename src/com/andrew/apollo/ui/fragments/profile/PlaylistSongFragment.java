@@ -33,7 +33,6 @@ import android.widget.AdapterView.OnItemClickListener;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.andrew.apollo.Config;
-import com.andrew.apollo.R;
 import com.andrew.apollo.adapters.ProfileSongAdapter;
 import com.andrew.apollo.dragdrop.DragSortListView;
 import com.andrew.apollo.dragdrop.DragSortListView.DragScrollProfile;
@@ -52,6 +51,8 @@ import com.andrew.apollo.widgets.ProfileTabCarousel;
 import com.andrew.apollo.widgets.VerticalScrollListener;
 
 import java.util.List;
+
+import the.joeapollo.R;
 
 /**
  * This class is used to display all of the songs from a particular playlist.

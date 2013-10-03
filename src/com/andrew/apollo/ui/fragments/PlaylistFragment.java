@@ -38,7 +38,6 @@ import android.widget.ListView;
 import com.actionbarsherlock.app.SherlockFragment;
 import com.andrew.apollo.Config;
 import com.andrew.apollo.MusicStateListener;
-import com.andrew.apollo.R;
 import com.andrew.apollo.adapters.PlaylistAdapter;
 import com.andrew.apollo.loaders.PlaylistLoader;
 import com.andrew.apollo.menu.FragmentMenuItems;
@@ -50,6 +49,8 @@ import com.andrew.apollo.ui.activities.ProfileActivity;
 import com.andrew.apollo.utils.MusicUtils;
 
 import java.util.List;
+
+import the.joeapollo.R;
 
 /**
  * This class is used to display all of the playlists on a user's device.

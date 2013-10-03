@@ -17,7 +17,6 @@ import android.provider.BaseColumns;
 import android.provider.MediaStore;
 import android.provider.MediaStore.Audio.ArtistColumns;
 
-import com.andrew.apollo.R;
 import com.andrew.apollo.model.Artist;
 import com.andrew.apollo.utils.Lists;
 import com.andrew.apollo.utils.MusicUtils;
@@ -25,6 +24,8 @@ import com.andrew.apollo.utils.PreferenceUtils;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import the.joeapollo.R;
 
 /**
  * Used to query {@link MediaStore.Audio.Artists.EXTERNAL_CONTENT_URI} and

@@ -14,7 +14,6 @@ package com.andrew.apollo.loaders;
 import android.content.Context;
 import android.database.Cursor;
 
-import com.andrew.apollo.R;
 import com.andrew.apollo.model.Album;
 import com.andrew.apollo.provider.RecentStore;
 import com.andrew.apollo.provider.RecentStore.RecentStoreColumns;
@@ -23,6 +22,8 @@ import com.andrew.apollo.utils.MusicUtils;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import the.joeapollo.R;
 
 /**
  * Used to query {@link RecentStore} and return the last listened to albums.

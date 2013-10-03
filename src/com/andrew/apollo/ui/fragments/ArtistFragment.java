@@ -38,7 +38,6 @@ import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.andrew.apollo.MusicStateListener;
-import com.andrew.apollo.R;
 import com.andrew.apollo.adapters.ArtistAdapter;
 import com.andrew.apollo.loaders.ArtistLoader;
 import com.andrew.apollo.menu.CreateNewPlaylist;
@@ -54,6 +53,8 @@ import com.andrew.apollo.utils.PreferenceUtils;
 import com.viewpagerindicator.TitlePageIndicator;
 
 import java.util.List;
+
+import the.joeapollo.R;
 
 /**
  * This class is used to display all of the artists on a user's device.

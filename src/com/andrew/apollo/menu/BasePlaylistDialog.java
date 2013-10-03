@@ -11,6 +11,7 @@
 
 package com.andrew.apollo.menu;
 
+import the.joeapollo.R;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -25,7 +26,6 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.actionbarsherlock.app.SherlockDialogFragment;
-import com.andrew.apollo.R;
 import com.andrew.apollo.utils.MusicUtils;
 
 /**

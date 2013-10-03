@@ -11,6 +11,7 @@
 
 package com.andrew.apollo.menu;
 
+import the.joeapollo.R;
 import android.app.Dialog;
 import android.content.ContentResolver;
 import android.content.ContentValues;
@@ -19,7 +20,6 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.provider.MediaStore.Audio;
 
-import com.andrew.apollo.R;
 import com.andrew.apollo.format.Capitalize;
 import com.andrew.apollo.utils.MusicUtils;
 

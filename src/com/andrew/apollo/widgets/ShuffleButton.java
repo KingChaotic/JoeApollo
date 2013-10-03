@@ -11,6 +11,7 @@
 
 package com.andrew.apollo.widgets;
 
+import the.joeapollo.R;
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.AttributeSet;
@@ -20,7 +21,6 @@ import android.view.View.OnLongClickListener;
 import android.widget.ImageButton;
 
 import com.andrew.apollo.MusicPlaybackService;
-import com.andrew.apollo.R;
 import com.andrew.apollo.utils.ApolloUtils;
 import com.andrew.apollo.utils.MusicUtils;
 import com.andrew.apollo.utils.ThemeUtils;

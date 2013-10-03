@@ -22,11 +22,12 @@ import android.graphics.drawable.TransitionDrawable;
 import android.os.AsyncTask;
 import android.widget.ImageView;
 
-import com.andrew.apollo.R;
 import com.andrew.apollo.utils.ApolloUtils;
 import com.andrew.apollo.utils.ThemeUtils;
 
 import java.lang.ref.WeakReference;
+
+import the.joeapollo.R;
 
 /**
  * This class wraps up completing some arbitrary long running work when loading

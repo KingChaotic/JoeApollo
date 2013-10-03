@@ -35,12 +35,13 @@ import android.widget.Toast;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.actionbarsherlock.view.Menu;
-import com.andrew.apollo.R;
 import com.andrew.apollo.recycler.RecycleHolder;
 import com.andrew.apollo.ui.MusicHolder;
 import com.andrew.apollo.utils.ThemeUtils;
 
 import java.util.List;
+
+import the.joeapollo.R;
 
 /**
  * Used to show all of the available themes on a user's device.

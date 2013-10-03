@@ -38,7 +38,6 @@ import com.actionbarsherlock.widget.SearchView.OnQueryTextListener;
 import com.andrew.apollo.IApolloService;
 import com.andrew.apollo.MusicPlaybackService;
 import com.andrew.apollo.MusicStateListener;
-import com.andrew.apollo.R;
 import com.andrew.apollo.utils.ApolloUtils;
 import com.andrew.apollo.utils.Lists;
 import com.andrew.apollo.utils.MusicUtils;
@@ -51,6 +50,8 @@ import com.andrew.apollo.widgets.ShuffleButton;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
+
+import the.joeapollo.R;
 
 /**
  * A base {@link SherlockFragmentActivity} used to update the bottom bar and

@@ -21,12 +21,13 @@ import android.widget.ListAdapter;
 
 import com.actionbarsherlock.app.SherlockDialogFragment;
 import com.andrew.apollo.Config;
-import com.andrew.apollo.R;
 import com.andrew.apollo.ui.activities.ProfileActivity;
 import com.andrew.apollo.utils.ApolloUtils;
 import com.andrew.apollo.utils.Lists;
 
 import java.util.ArrayList;
+
+import the.joeapollo.R;
 
 /**
  * Used when the user touches the image in the header in {@link ProfileActivity}

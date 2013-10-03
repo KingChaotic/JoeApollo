@@ -30,11 +30,12 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 
-import com.andrew.apollo.R;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+
+import the.joeapollo.R;
 
 /**
  * ListView subclass that mediates drag and drop resorting of items.

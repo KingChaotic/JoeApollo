@@ -19,7 +19,6 @@ import android.view.ViewGroup;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
-import com.andrew.apollo.R;
 import com.andrew.apollo.ui.fragments.AlbumFragment;
 import com.andrew.apollo.ui.fragments.ArtistFragment;
 import com.andrew.apollo.ui.fragments.GenreFragment;
@@ -31,6 +30,8 @@ import com.andrew.apollo.utils.Lists;
 import java.lang.ref.WeakReference;
 import java.util.List;
 import java.util.Locale;
+
+import the.joeapollo.R;
 
 /**
  * A {@link FragmentPagerAdapter} class for swiping between playlists, recent,

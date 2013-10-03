@@ -17,7 +17,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
-import com.andrew.apollo.R;
 import com.andrew.apollo.model.Song;
 import com.andrew.apollo.ui.MusicHolder;
 import com.andrew.apollo.ui.fragments.profile.AlbumSongFragment;
@@ -29,6 +28,8 @@ import com.andrew.apollo.ui.fragments.profile.PlaylistSongFragment;
 import com.andrew.apollo.utils.Lists;
 
 import java.util.List;
+
+import the.joeapollo.R;
 
 /**
  * This {@link ArrayAdapter} is used to display the songs for a particular

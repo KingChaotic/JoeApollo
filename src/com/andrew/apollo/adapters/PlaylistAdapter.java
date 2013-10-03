@@ -11,6 +11,7 @@
 
 package com.andrew.apollo.adapters;
 
+import the.joeapollo.R;
 import android.content.Context;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
@@ -18,7 +19,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
-import com.andrew.apollo.R;
 import com.andrew.apollo.model.Playlist;
 import com.andrew.apollo.ui.MusicHolder;
 import com.andrew.apollo.ui.MusicHolder.DataHolder;

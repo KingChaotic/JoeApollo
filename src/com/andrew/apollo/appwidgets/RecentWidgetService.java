@@ -11,6 +11,7 @@
 
 package com.andrew.apollo.appwidgets;
 
+import the.joeapollo.R;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
@@ -21,7 +22,6 @@ import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
 import com.andrew.apollo.Config;
-import com.andrew.apollo.R;
 import com.andrew.apollo.cache.ImageCache;
 import com.andrew.apollo.cache.ImageFetcher;
 import com.andrew.apollo.provider.RecentStore;

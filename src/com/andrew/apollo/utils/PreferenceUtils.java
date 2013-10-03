@@ -11,12 +11,12 @@
 
 package com.andrew.apollo.utils;
 
+import the.joeapollo.R;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 
-import com.andrew.apollo.R;
 import com.andrew.apollo.ui.fragments.AlbumFragment;
 import com.andrew.apollo.ui.fragments.ArtistFragment;
 import com.andrew.apollo.ui.fragments.SongFragment;

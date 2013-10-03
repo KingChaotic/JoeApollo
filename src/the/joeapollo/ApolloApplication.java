@@ -9,7 +9,7 @@
  * governing permissions and limitations under the License.
  */
 
-package com.andrew.apollo;
+package the.joeapollo;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -21,6 +21,8 @@ import com.andrew.apollo.utils.ApolloUtils;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import the.joeapollo.BuildConfig;
 
 /**
  * Used to turn off logging for jaudiotagger and free up memory when

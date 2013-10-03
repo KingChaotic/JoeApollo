@@ -11,6 +11,7 @@
 
 package com.andrew.apollo.widgets;
 
+import the.joeapollo.R;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.Resources;
@@ -24,7 +25,6 @@ import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
-import com.andrew.apollo.R;
 import com.andrew.apollo.ui.activities.ProfileActivity;
 import com.andrew.apollo.utils.ApolloUtils;
 import com.nineoldandroids.animation.Animator;

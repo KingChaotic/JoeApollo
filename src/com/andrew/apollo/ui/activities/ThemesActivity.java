@@ -11,12 +11,12 @@
 
 package com.andrew.apollo.ui.activities;
 
+import the.joeapollo.R;
 import android.os.Bundle;
 
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
-import com.andrew.apollo.R;
 import com.andrew.apollo.ui.fragments.ThemeFragment;
 
 /**

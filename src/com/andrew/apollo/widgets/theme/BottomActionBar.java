@@ -11,13 +11,13 @@
 
 package com.andrew.apollo.widgets.theme;
 
+import the.joeapollo.R;
 import android.content.Context;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.util.AttributeSet;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import com.andrew.apollo.R;
 import com.andrew.apollo.utils.ThemeUtils;
 
 /**

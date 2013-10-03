@@ -18,12 +18,13 @@ import android.provider.BaseColumns;
 import android.provider.MediaStore;
 import android.provider.MediaStore.Audio.PlaylistsColumns;
 
-import com.andrew.apollo.R;
 import com.andrew.apollo.model.Playlist;
 import com.andrew.apollo.utils.Lists;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import the.joeapollo.R;
 
 /**
  * Used to query {@link MediaStore.Audio.Playlists.EXTERNAL_CONTENT_URI} and

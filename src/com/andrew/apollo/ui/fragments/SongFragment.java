@@ -34,7 +34,6 @@ import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.andrew.apollo.MusicStateListener;
-import com.andrew.apollo.R;
 import com.andrew.apollo.adapters.SongAdapter;
 import com.andrew.apollo.loaders.SongLoader;
 import com.andrew.apollo.menu.CreateNewPlaylist;
@@ -49,6 +48,8 @@ import com.andrew.apollo.utils.NavUtils;
 import com.viewpagerindicator.TitlePageIndicator;
 
 import java.util.List;
+
+import the.joeapollo.R;
 
 /**
  * This class is used to display all of the songs on a user's device.

@@ -29,7 +29,6 @@ import android.widget.AdapterView.OnItemClickListener;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.actionbarsherlock.view.MenuInflater;
-import com.andrew.apollo.R;
 import com.andrew.apollo.adapters.SongAdapter;
 import com.andrew.apollo.dragdrop.DragSortListView;
 import com.andrew.apollo.dragdrop.DragSortListView.DragScrollProfile;
@@ -47,6 +46,8 @@ import com.andrew.apollo.utils.NavUtils;
 import com.viewpagerindicator.TitlePageIndicator;
 
 import java.util.List;
+
+import the.joeapollo.R;
 
 /**
  * This class is used to display all of the songs in the queue.

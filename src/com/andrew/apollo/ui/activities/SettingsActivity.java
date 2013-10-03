@@ -11,6 +11,7 @@
 
 package com.andrew.apollo.ui.activities;
 
+import the.joeapollo.R;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
@@ -26,7 +27,6 @@ import android.preference.Preference.OnPreferenceClickListener;
 import com.actionbarsherlock.app.SherlockPreferenceActivity;
 import com.actionbarsherlock.view.MenuItem;
 import com.andrew.apollo.MusicPlaybackService;
-import com.andrew.apollo.R;
 import com.andrew.apollo.cache.ImageCache;
 import com.andrew.apollo.ui.fragments.ThemeFragment;
 import com.andrew.apollo.utils.ApolloUtils;

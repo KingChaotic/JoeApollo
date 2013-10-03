@@ -11,6 +11,7 @@
 
 package com.andrew.apollo;
 
+import the.joeapollo.R;
 import android.annotation.SuppressLint;
 import android.app.Notification;
 import android.app.NotificationManager;

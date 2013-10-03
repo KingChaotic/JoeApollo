@@ -28,7 +28,6 @@ import android.support.v4.content.Loader;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.andrew.apollo.Config;
 import com.andrew.apollo.IApolloService;
-import com.andrew.apollo.R;
 import com.andrew.apollo.format.Capitalize;
 import com.andrew.apollo.loaders.AsyncHandler;
 import com.andrew.apollo.loaders.LastAddedLoader;
@@ -40,6 +39,8 @@ import com.andrew.apollo.utils.MusicUtils.ServiceToken;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import the.joeapollo.R;
 
 /**
  * This class is opened when the user touches a Home screen shortcut or album

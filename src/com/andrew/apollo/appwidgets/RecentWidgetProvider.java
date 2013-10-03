@@ -11,6 +11,7 @@
 
 package com.andrew.apollo.appwidgets;
 
+import the.joeapollo.R;
 import android.annotation.TargetApi;
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -28,7 +29,6 @@ import android.widget.RemoteViews;
 
 import com.andrew.apollo.Config;
 import com.andrew.apollo.MusicPlaybackService;
-import com.andrew.apollo.R;
 import com.andrew.apollo.ui.activities.AudioPlayerActivity;
 import com.andrew.apollo.ui.activities.HomeActivity;
 import com.andrew.apollo.ui.activities.ProfileActivity;

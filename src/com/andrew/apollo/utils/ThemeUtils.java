@@ -11,6 +11,7 @@
 
 package com.andrew.apollo.utils;
 
+import the.joeapollo.R;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -35,7 +36,6 @@ import android.widget.TextView;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
-import com.andrew.apollo.R;
 
 /**
  * In order to implement the theme chooser for Apollo, this class returns a

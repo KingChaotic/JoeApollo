@@ -18,10 +18,11 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.andrew.apollo.R;
 import com.andrew.apollo.utils.ThemeUtils;
 
 import java.util.WeakHashMap;
+
+import the.joeapollo.R;
 
 /**
  * A custom {@link TextView} that is made themeable for developers. It allows a

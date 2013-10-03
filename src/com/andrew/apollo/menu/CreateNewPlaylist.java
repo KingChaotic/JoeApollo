@@ -11,13 +11,13 @@
 
 package com.andrew.apollo.menu;
 
+import the.joeapollo.R;
 import android.app.Dialog;
 import android.content.ContentResolver;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.provider.MediaStore;
 
-import com.andrew.apollo.R;
 import com.andrew.apollo.format.Capitalize;
 import com.andrew.apollo.utils.MusicUtils;
 

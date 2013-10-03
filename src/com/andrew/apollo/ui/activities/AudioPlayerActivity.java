@@ -48,7 +48,6 @@ import com.actionbarsherlock.widget.SearchView;
 import com.actionbarsherlock.widget.SearchView.OnQueryTextListener;
 import com.andrew.apollo.IApolloService;
 import com.andrew.apollo.MusicPlaybackService;
-import com.andrew.apollo.R;
 import com.andrew.apollo.adapters.PagerAdapter;
 import com.andrew.apollo.cache.ImageFetcher;
 import com.andrew.apollo.ui.fragments.LyricsFragment;
@@ -65,6 +64,8 @@ import com.andrew.apollo.widgets.ShuffleButton;
 import com.nineoldandroids.animation.ObjectAnimator;
 
 import java.lang.ref.WeakReference;
+
+import the.joeapollo.R;
 
 /**
  * Apollo's "now playing" interface.

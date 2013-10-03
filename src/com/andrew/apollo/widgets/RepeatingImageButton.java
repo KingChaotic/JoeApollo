@@ -11,6 +11,7 @@
 
 package com.andrew.apollo.widgets;
 
+import the.joeapollo.R;
 import android.content.Context;
 import android.os.SystemClock;
 import android.util.AttributeSet;
@@ -20,7 +21,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 
-import com.andrew.apollo.R;
 import com.andrew.apollo.utils.ApolloUtils;
 import com.andrew.apollo.utils.MusicUtils;
 import com.andrew.apollo.utils.ThemeUtils;

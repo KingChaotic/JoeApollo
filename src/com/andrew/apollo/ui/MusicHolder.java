@@ -18,10 +18,11 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.andrew.apollo.R;
 import com.andrew.apollo.appwidgets.RecentWidgetService;
 
 import java.lang.ref.WeakReference;
+
+import the.joeapollo.R;
 
 /**
  * Used to efficiently cache and recyle the {@link View}s used in the artist,

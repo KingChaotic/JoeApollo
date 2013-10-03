@@ -40,7 +40,6 @@ import android.widget.Toast;
 
 import com.andrew.apollo.IApolloService;
 import com.andrew.apollo.MusicPlaybackService;
-import com.andrew.apollo.R;
 import com.andrew.apollo.loaders.FavoritesLoader;
 import com.andrew.apollo.loaders.LastAddedLoader;
 import com.andrew.apollo.loaders.PlaylistLoader;
@@ -55,6 +54,8 @@ import java.util.Arrays;
 import java.util.Formatter;
 import java.util.Locale;
 import java.util.WeakHashMap;
+
+import the.joeapollo.R;
 
 /**
  * A collection of helpers directly related to music or Apollo's service.

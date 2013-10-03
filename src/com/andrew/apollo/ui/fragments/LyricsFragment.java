@@ -11,6 +11,7 @@
 
 package com.andrew.apollo.ui.fragments;
 
+import the.joeapollo.R;
 import android.annotation.SuppressLint;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -23,7 +24,6 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
-import com.andrew.apollo.R;
 import com.andrew.apollo.lyrics.LyricsProvider;
 import com.andrew.apollo.lyrics.LyricsProviderFactory;
 import com.andrew.apollo.lyrics.OfflineLyricsProvider;

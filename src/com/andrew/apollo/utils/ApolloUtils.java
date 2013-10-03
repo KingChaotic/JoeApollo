@@ -40,7 +40,6 @@ import android.widget.Toast;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.andrew.apollo.Config;
-import com.andrew.apollo.R;
 import com.andrew.apollo.cache.ImageCache;
 import com.andrew.apollo.cache.ImageFetcher;
 import com.andrew.apollo.ui.activities.ShortcutActivity;
@@ -49,6 +48,8 @@ import com.andrew.apollo.widgets.ColorSchemeDialog;
 
 import java.lang.ref.WeakReference;
 import java.util.List;
+
+import the.joeapollo.R;
 
 /**
  * Mostly general and UI helpers.

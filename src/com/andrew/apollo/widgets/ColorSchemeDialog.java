@@ -22,11 +22,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.andrew.apollo.R;
 import com.andrew.apollo.utils.PreferenceUtils;
 import com.andrew.apollo.widgets.ColorPickerView.OnColorChangedListener;
 
 import java.util.Locale;
+
+import the.joeapollo.R;
 
 /**
  * Shows the {@link ColorPanelView} in a new {@link AlertDialog}.

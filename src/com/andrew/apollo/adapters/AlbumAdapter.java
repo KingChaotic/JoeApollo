@@ -11,6 +11,7 @@
 
 package com.andrew.apollo.adapters;
 
+import the.joeapollo.R;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,7 +22,6 @@ import android.widget.ImageView;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.andrew.apollo.Config;
-import com.andrew.apollo.R;
 import com.andrew.apollo.cache.ImageFetcher;
 import com.andrew.apollo.model.Album;
 import com.andrew.apollo.ui.MusicHolder;
