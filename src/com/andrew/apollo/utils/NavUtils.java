@@ -18,6 +18,7 @@ import android.content.Intent;
 import android.media.audiofx.AudioEffect;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.widget.Toast;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.andrew.apollo.Config;
@@ -27,7 +28,6 @@ import com.andrew.apollo.ui.activities.HomeActivity;
 import com.andrew.apollo.ui.activities.ProfileActivity;
 import com.andrew.apollo.ui.activities.SearchActivity;
 import com.andrew.apollo.ui.activities.SettingsActivity;
-import com.devspark.appmsg.Crouton;
 
 /**
  * Various navigation helpers.
@@ -94,8 +94,8 @@ public final class NavUtils {
             // Make sure the notification starts
             MusicUtils.startBackgroundService(context);
         } catch (final ActivityNotFoundException e) {
-            Crouton.makeText(context, context.getString(R.string.no_effects_for_you),
-                    Crouton.STYLE_ALERT);
+        	Toast.makeText(context, context.getString(R.string.no_effects_for_you),
+        			Toast.LENGTH_LONG);
         }
     }
 

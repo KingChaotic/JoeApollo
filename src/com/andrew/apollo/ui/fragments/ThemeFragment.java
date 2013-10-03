@@ -31,6 +31,7 @@ import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
+import android.widget.Toast;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.actionbarsherlock.view.Menu;
@@ -38,7 +39,6 @@ import com.andrew.apollo.R;
 import com.andrew.apollo.recycler.RecycleHolder;
 import com.andrew.apollo.ui.MusicHolder;
 import com.andrew.apollo.utils.ThemeUtils;
-import com.devspark.appmsg.Crouton;
 
 import java.util.List;
 
@@ -193,8 +193,8 @@ public class ThemeFragment extends SherlockFragment implements OnItemClickListen
     public void onItemClick(final AdapterView<?> parent, final View view, final int position,
             final long id) {
         mTheme.setThemePackageName(mValues[position]);
-        Crouton.makeText(getSherlockActivity(),
-                mEntries[position] + " " + getString(R.string.theme_set), Crouton.STYLE_CONFIRM)
+        Toast.makeText(getSherlockActivity(),
+                mEntries[position] + " " + getString(R.string.theme_set), Toast.LENGTH_LONG)
                 .show();
     }
 
