@@ -44,7 +44,7 @@
     <uses-permission android:name="android.permission.GET_TASKS" />
 
     <application
-        android:name="the.joeapollo.ApolloApplication"
+        android:name=".ApolloApplication"
         android:allowBackup="true"
         android:allowTaskReparenting="true"
         android:hardwareAccelerated="@bool/config_hardwareAccelerated"
@@ -56,7 +56,7 @@
         <!-- Searchable -->
         <meta-data
             android:name="android.app.default_searchable"
-            android:value="the.joeapollo.ui.activities.SearchActivity" />
+            android:value=".ui.activities.SearchActivity" />
         <!-- Main activity -->
         <activity
             android:name=".ui.activities.HomeActivity"
@@ -72,7 +72,7 @@
         </activity>
         <!-- Now playing -->
         <activity
-            android:name="the.joeapollo.ui.activities.AudioPlayerActivity"
+            android:name=".ui.activities.AudioPlayerActivity"
             android:clearTaskOnLaunch="true"
             android:exported="true"
             android:launchMode="singleTask"
@@ -121,11 +121,11 @@
 
         <!-- Profile phone Activity -->
         <activity
-            android:name="the.joeapollo.ui.activities.ProfileActivity"
+            android:name=".ui.activities.ProfileActivity"
             android:excludeFromRecents="true" />
         <!-- Shortcut launcher Activity -->
         <activity
-            android:name="the.joeapollo.ui.activities.ShortcutActivity"
+            android:name=".ui.activities.ShortcutActivity"
             android:excludeFromRecents="true"
             android:exported="true"
             android:theme="@style/Theme.Transparent" >
@@ -137,7 +137,7 @@
         </activity>
         <!-- Search interface -->
         <activity
-            android:name="the.joeapollo.ui.activities.SearchActivity"
+            android:name=".ui.activities.SearchActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
@@ -152,12 +152,12 @@
         </activity>
         <!-- Used to set options -->
         <activity
-            android:name="the.joeapollo.ui.activities.SettingsActivity"
+            android:name=".ui.activities.SettingsActivity"
             android:label="@string/menu_settings"
             android:theme="@style/Apollo.Theme.Dark" />
         <!-- Themes Activity -->
         <activity
-            android:name="the.joeapollo.ui.activities.ThemesActivity"
+            android:name=".ui.activities.ThemesActivity"
             android:excludeFromRecents="true" />
         <!-- 4x1 App Widget -->
         <receiver
@@ -220,7 +220,7 @@
             android:enabled="@bool/has_honeycomb"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
         <!-- Media button receiver -->
-        <receiver android:name="the.tjoeapollo.MediaButtonIntentReceiver" >
+        <receiver android:name=".MediaButtonIntentReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
                 <action android:name="android.media.AUDIO_BECOMING_NOISY" />
@@ -228,7 +228,7 @@
         </receiver>
         <!-- Music service -->
         <service
-            android:name="the.tjoeapollo.MusicPlaybackService"
+            android:name=".MusicPlaybackService"
             android:label="@string/app_name"
             android:process=":main" />
     </application>

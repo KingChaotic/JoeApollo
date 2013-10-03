@@ -25,7 +25,7 @@
         android:layout_height="match_parent"
         android:fillViewport="true" >
 
-        <com.andrew.apollo.widgets.theme.ThemeableTextView
+        <the.joeapollo.widgets.theme.ThemeableTextView
             android:id="@+id/audio_player_lyrics"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

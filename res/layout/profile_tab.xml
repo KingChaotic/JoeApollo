@@ -58,7 +58,7 @@
             android:layout_alignParentLeft="true"
             android:background="@color/transparent_black" />
 
-        <com.andrew.athe.joeapollo.widgets.theme.Colorstrip  android:id="@+id/profile_tab_colorstrip"
+        <the.joeapollo.widgets.theme.Colorstrip  android:id="@+id/profile_tab_colorstrip"
             android:layout_width="match_parent"
             android:layout_height="@dimen/profile_indicator_height"
             android:layout_alignParentBottom="true"
