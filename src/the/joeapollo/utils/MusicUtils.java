@@ -654,6 +654,9 @@ public final class MusicUtils {
      * @return The ID for a playlist.
      */
     public static final long getIdForPlaylist(final Context context, final String name) {
+    	
+    	if (name==null) return -1;
+    	
         Cursor cursor = context.getContentResolver().query(
                 MediaStore.Audio.Playlists.EXTERNAL_CONTENT_URI, new String[] {
                     BaseColumns._ID
