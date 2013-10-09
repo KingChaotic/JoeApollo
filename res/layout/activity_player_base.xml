@@ -164,7 +164,7 @@
             android:textSize="@dimen/text_size_micro"
             app:themeResource="audio_player_current_time" />
 
-        <com.andrew.athe.joeapollo.widgets.theme.ThemeableTextView  android:id="@+id/audio_player_total_time"
+        <the.joeapollo.widgets.theme.ThemeableTextView  android:id="@+id/audio_player_total_time"
             android:layout_width="@dimen/audio_player_time_width"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@android:id/progress"
