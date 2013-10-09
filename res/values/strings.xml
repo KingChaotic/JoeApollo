@@ -138,7 +138,7 @@
     <string name="settings_about_apollo">About JoeApollo</string>
     <string name="settings_special_thanks">Special thanks</string>
     <string name="settings_cyanogenmod_title">CyanogenMod</string>
-    <string name="settings_self_title">Andrew Neal</string>
+    <string name="settings_self_title">Joseph Paul Cohen (Based on Andrew Neal\'s Work)</string>
     <string name="settings_lopez_title">A.J. Lopez</string>
     <string name="settings_lopez_summary">Icon and Play Store banner design</string>
     <string name="settings_color_scheme_title">Choose JoeApollo\'s default color scheme</string>
